@@ -1,0 +1,32 @@
+/* @media screen and (max-width: 768px) {
+.title {
+    text-align: center;
+  }
+  .imgBox {
+    justify-content: center;
+  }
+  .content-showing {
+    padding: 0 120px;
+  }
+} */
+
+@media screen and (max-width: 768px) {
+  .now-showing {
+    height: auto;
+  }
+  .nw-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+  .nw-box-items {
+    flex-direction: column;
+    width: 225px;
+    flex: 1;
+    padding: 20px 10px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #fff;
+  }
+}
